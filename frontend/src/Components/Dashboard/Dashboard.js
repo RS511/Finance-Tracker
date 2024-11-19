@@ -47,19 +47,19 @@ function Dashboard() {
                         <h2 className="salary-title">Min <span>Salary</span>Max</h2>
                         <div className="salary-item">
                             <p>
-                                ${Math.min(...incomes.map(item => item.amount))}
+                                Rs.{Math.min(...incomes.map(item => item.amount))}
                             </p>
                             <p>
-                                ${Math.max(...incomes.map(item => item.amount))}
+                                Rs.{Math.max(...incomes.map(item => item.amount))}
                             </p>
                         </div>
                         <h2 className="salary-title">Min <span>Expense</span>Max</h2>
                         <div className="salary-item">
                             <p>
-                                ${Math.min(...expenses.map(item => item.amount))}
+                                Rs.{Math.min(...expenses.map(item => item.amount))}
                             </p>
                             <p>
-                                ${Math.max(...expenses.map(item => item.amount))}
+                                Rs.{Math.max(...expenses.map(item => item.amount))}
                             </p>
                         </div>
                     </div>
@@ -76,12 +76,12 @@ const DashboardStyled = styled.div`
         gap: 2rem;
         .chart-con{
             grid-column: 1 / 4;
-            height: 400px;
+            height: 300px;
             .amount-con{
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 gap: 2rem;
-                margin-top: 2rem;
+                margin-top: 1rem;
                 .income, .expense{
                     grid-column: span 2;
                 }
@@ -89,10 +89,10 @@ const DashboardStyled = styled.div`
                     background: #FCF6F9;
                     border: 2px solid #FFFFFF;
                     box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
-                    border-radius: 20px;
+                    border-radius: 15px;
                     padding: 1rem;
                     p{
-                        font-size: 3.5rem;
+                        font-size: 2.0rem;
                         font-weight: 700;
                     }
                 }
@@ -106,7 +106,7 @@ const DashboardStyled = styled.div`
                     p{
                         color: var(--color-green);
                         opacity: 0.6;
-                        font-size: 4.5rem;
+                        font-size: 2.5rem;
                     }
                 }
             }
