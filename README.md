@@ -38,5 +38,21 @@ A full-stack financial management web application designed to help users track t
   npm start
   cd server
   npm start
+## Screenshots
+- Dashboard
+
+<img src="https://github.com/user-attachments/assets/edbffad5-4fb5-4296-9ec1-e24b93e5dbb2" alt="Dashboard" width="600" height="400">
+
+-Adding income/expenses
+
+<img src="https://github.com/user-attachments/assets/1f00077c-a11f-4502-8da4-560e34957f6d" alt="Adding income/expenses 1" width="500" height="400">
+<img src="https://github.com/user-attachments/assets/dcb36e9f-0c8f-4337-9d49-b83022920bab" alt="Adding income/expenses 2" width="500" height="400">
+
+-Visualization
+
+<img src="https://github.com/user-attachments/assets/740dddf3-9f65-41b8-aaff-fcae5927b66f" alt="Visualization Dashboard" width="600" height="400">
+
+
+
 
 
